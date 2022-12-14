@@ -1,5 +1,5 @@
 header{display:flex; position: absolute; width:100%; }
-    main{height:100vh; width:100%; background:url(https://www.krict.re.kr/images/kor/main/visual01.jpg); }
+    main{height:100vh; width:100%; background:url(https://www.krict.re.kr/images/kor/main/visual01.jpg) no-repeat center center/cover; }
     .inner{max-width: 1460px; margin:auto; width: 100%;}
     .gnb{  
       display: flex;
