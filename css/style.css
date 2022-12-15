@@ -1,111 +1,59 @@
 header{display:flex; position: absolute; width:100%; }
-    main{height:100vh; width:100%; background:url(/image/visual01.jpg) no-repeat center center/cover; }
-    .inner{max-width: 1460px; margin:auto; width: 100%;}
-    .gnb{  
-      display: flex;
-      justify-content: center;
-      padding-top: 30px;
-    }
-    .w100{
-      width: 100%;
-      position: absolute;
-
-    }
-    .gnb li a{
-      color: white;
-      font-size: 18px;
-      font-weight: bold;
-    }
-    .inner{
-      margin: 0px;
-    }
-    .util{
-      display: flex;
-      margin: 0px;
-      padding: 0px;
-      padding-top: 30px;
-    }
-    .util li{
-      padding-right: 15px;
-    }
-    .util li a{
-      font-size: 16px;
-      font-weight: bold;
-      color: white;
-      
-    }
-    nav{
-      padding-right: 100px;
-    }
-    .gnb{
-      color: white;
-    }
-    header h1{
-      padding:20px;
-    }
-  
-
-    .depth2 li a{
-      padding-top: 15px;
-    }
-
-    nav>ul>li ul{
-      height: 0;
-      overflow: hidden;
-      transition: padding 0.5s;
-      padding:0;
-  }
-  nav>ul>li:hover ul{
-    height: auto;
-    padding-bottom: 10px;
+main{height:100vh; width:100%; background:url(https://github.com/wooyoung6685/project01/blob/main/image/visual01.jpg?raw=true) no-repeat center center/cover; }
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+}
+header{
+    position: absolute;
+    display: flex;
+}
+header>h1{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.mid{
+    margin: 0 auto;
+    color:white;
+    font-size: 18px;
+}
+.mid>ul{
+    padding-top: 35px;
+    padding-right: 200px;
 
 }
-.gnb>li{
-  width: 150px;
-  height: 106px;
-  display: flex;
-  justify-content: center;
-  position: relative;
+.mid>ul>li{
+    display: inline-block;
+    padding-right: 50px;
 }
-.depth1{
-  position: absolute;
-  top:106px;
-  width: 150px;
+.mid>ul>li>a{
+    color:white;
+    font-weight: 700;
+    font-size: 18px;
 }
-.depth1-1{
-  position: absolute;
-  left: 400px;
-  top:106px;
-  width: 150px;
+.mid>ul>li>a>img{
+    display: inline-block;
 }
-.depth1-2{
-  position: absolute;
-  left: 700px;
-  top:106px;
-  width:150px;
+.right{
+    display: flex;
+    width: 130px;
+    position: absolute;
+    right: 1%;
+    top:45px
 }
-
-.depth2{
-  position: absolute;
-  top:106px;
-  width: 150px;
+.right>li{
+    padding-right: 20px;
 }
-.depth2-1{
-  position: absolute;
-  left: 300px;
-  top:106px;
-  width: 150px;
+.right>li>a{
+    color:white;
 }
-.depth2-2{
-  position: absolute;
-  left: 600px;
-  top:106px;
-  width:150px;
-}
-main h2{
-  position: absolute;
-  top:200px;
-  font-size: 36px;
-  left: 60px;
-  font-weight: 200px;
+.right>li>a>img{
+    width: 16px;
 }
