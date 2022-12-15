@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--viewport에 대한 메타 작성 내용:너비 기기의 너비와 같게 하고 기본 베율은 1배-->
+    <!-- 반응형 웹 개발시 꼭 쓸것 got it?-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mostlyfluid</title>
+    <style>
+    * {
+			margin: 0;
+			padding: 0;
+		}
+
+		body,
+		h1,
+		h2,
+		h3,
+		h4 {
+			font-family: verdana, sans-serif;
+			font-size: 12px;
+		}
+        #header{
+            background-color: red;
+            line-height: 40px;
+            
+        }
+        #wrap{
+            width: 100%;
+            margin: 0 auto;
+            max-width:960px;
+
+        }
+        #container::after{
+            content:'';
+            display: block;
+            clear:both;
+        }
+        #content{float: left; width: 600px; background-color: rgb(66, 119, 66);}
+        #aside{float:right; width: 340px; background-color: lime;}
+        #footer{
+            margin-top: 30px; background: silver; line-height: 30px;
+        }
+        @media screen and (max-width:960px){
+            /* 화면의 너비가 0~960 #wrap 100%*/
+            
+            /* 부모를 100% 하니까 자식의 총 너비보다 화면이 좁아지면 자식이 떨어짐  */
+            /* 가변크기 계산하기 자식/부모*100 */
+            #content{
+                width: 62%;
+            }
+            #aside{
+                width: 35%;
+            }
+        }
+        @media screen and (max-width:480px) {
+            #content{
+                width: 100%;
+                float:none;
+            }
+            #aside{
+                width: 100%;
+                float:none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+		<header id="header">
+			<h1>Layout example</h1>
+		</header>
+
+		<div id="container">
+			<section id="content">
+				<h2>Content area</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, dolores, iste, expedita necessitatibus dolor quos facere beatae voluptas deserunt eum commodi quisquam aperiam itaque quae labore error suscipit consequuntur magni incidunt accusantium rerum nisi explicabo illum! Eveniet, dignissimos, atque, vel voluptas voluptatem minima ipsum tenetur laboriosam quas recusandae animi illum iure cumque deleniti optio quod veniam excepturi architecto doloremque dolorum pariatur aspernatur rerum quia? Delectus, nesciunt quis vero ab modi necessitatibus atque sint nobis! Neque, temporibus, quibusdam maxime consequuntur animi alias rerum doloremque porro id provident itaque eius vel fuga repellendus odit sit veniam atque vero inventore ex? Est, quis.</p>
+			</section>
+
+			<aside id="aside">
+				<h2>Aside area</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sapiente modi magni nemo corrupti voluptatem nostrum facilis cumque fugiat rerum ullam eius quis voluptatibus dolores distinctio. Quibusdam blanditiis maxime voluptatibus.</p>
+			</aside>
+		</div><!-- //container -->
+
+		<footer id="footer">
+			<p>Copyright &copy; 2014</p>
+		</footer>
+	</div><!-- //wrap -->
+</body>
+</html>
