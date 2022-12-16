@@ -173,3 +173,16 @@ padding-top:30px
     padding-left: 30px;
 
 }
+.one{
+    display: block;
+    position: absolute;
+    content: '';
+    left: px;
+    top: px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #61bfb8;
+    margin-top: 300px;
+    margin-left: 20px;
+}
