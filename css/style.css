@@ -1,7 +1,8 @@
 body{
     font-family: 'nsr','맑은고딕','Malgun Gothic',-apple-system;
 }
-header{display:flex; position: absolute; width:100%; }
+header{display:flex; position: absolute; width:100%; border-bottom: 1px solid rgba(255,255,255,.2); }
+
     main{height:100vh; width:100%; background:url(https://github.com/wooyoung6685/project01/blob/main/image/visual01.jpg?raw=true) no-repeat center center/cover; }
     *{
         margin: 0;
@@ -9,14 +10,10 @@ header{display:flex; position: absolute; width:100%; }
     }
     a{
         text-decoration: none;
-        color: black;
+       
     }
     ul li{
         list-style: none;
-    }
-    header{
-        position: absolute;
-        display: flex;
     }
     header>h1{
         padding-top: 30px;
@@ -37,7 +34,7 @@ header{display:flex; position: absolute; width:100%; }
         padding-right: 50px;
         text-align: center;
         vertical-align: top;
-        height: 100px;
+        height: 70px;
     }
     .mid>ul>li>a{
         color:white;
@@ -67,13 +64,194 @@ header{display:flex; position: absolute; width:100%; }
     .right>li>a>img{
         width: 16px;
     }
+
+.mid>ul>li:hover .dep2 {
+    display: block;
+    
+}
  .dep2{
-    display:none;
+    display: none;
+    position: absolute;
+    top: 104px;
+    left: 0;
+    width: 100vw;
+    min-height: 400x;
+    background-color: #FFFFFF;
+    border-bottom: 3px solid #05aba7;
+    z-index: 1000;
  }
+
+.dep2-wrapper {
+    width: 100%;
+    max-width: 1460px;
+    box-sizing: border-box;
+    min-height: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dep2-main-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+
+.dep2-main-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    position: relative;
+}
+
+.dep2-main-title-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #05aba7;
+    position: absolute;
+    top: 0;
+    left: -8px;
+}
+
+.dep2-main-bottom-image {
+
+}
+
+.dep2-main-bottom-image > img {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.dep2-main-image>img{
+    padding-right: 20px;    
+}
+.dep2-sub-column {
+    flex: 1;
+    border-left: 1px solid rgba(0, 0, 0,.2);
+}
+.dep2-sub-column1 {
+    flex: 1;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dep2-sub-column-wrapper {
+    padding-left: 20px;
+}
+
+.dep2-sub-column-block {
+    position: relative;
+    padding-bottom: 16px;
+    text-align: start;
+}
+
+.dep2-sub-column-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    
+}
+.gnb_img{
+    position: absolute;
+    bottom: 170px;
+    left: 65px;
+
+}
+.gnb_ul{
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+}
+.gnb_ul>li{
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+.gnb_ul>li>a{
+    color: #fff;
+    font-size: 15px;
+}
+    
+.gnb_bg{
+    background: rgba(17,126,133,.7);
+    text-align: center;
+    width: 210px;
+    height: 256px;
+    position: absolute;
+    bottom: 45px;
+    left: 15px;
+    
+}
+.pd-top{
+    padding-top: 70px;
+}
+.pd-top1{
+    padding-top: 15px;
+    padding-bottom: 70px
+}
+.pd-top2{
+    padding-top: 60px;
+}
+.pd-top3{
+ padding-top:200px
+}
+
+.pd-top4{
+    padding-top:220px
+}
+.pd-top5{
+    padding-top: 130px;
+
+}
+.pd-top6{
+    padding-top: 20px;
+}
+.pd-top7{
+    padding-top: 50px;
+}
+.dep2-sub-column-content {
+    font-size: 15px;
+    color: #666;
+    text-align: start;
+}
  
  nav>ul>li>a:hover{
 
-    border-bottom: 3px solid #089791;;
+    border-bottom: 3px solid #089791;
+ }
+ main>h3{
+    position: absolute;
+    top: 180px;
+    left: 160px;
+    opacity: 0.6;
+    margin: 0 0 15px;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+ }
+ .view1>span{
+    position: absolute;
+    top: 230px;
+    left: 146px;
+    line-height: 1.1;
+    font-size: 48px;
+    font-family: "nsr_eb";
+    font-weight: bold;
+    color: #fff;
+    vertical-align: top;
+ }
+ .skip{
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+ }
+ fieldset{
+    position: absolute;
+    left: 65%;
  }
 
 section{
@@ -177,8 +355,6 @@ padding-top:30px
     display: block;
     position: absolute;
     content: '';
-    left: px;
-    top: px;
     width: 16px;
     height: 16px;
     border-radius: 50%;
