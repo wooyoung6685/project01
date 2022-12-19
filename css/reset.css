@@ -19,7 +19,7 @@ html{
     overflow-x:hidden;
     overflow-y:scroll;
 }
-body, input, textarea, select, button, table{
+body, textarea, select, button, table{
     font-family:'Noto sans KR', Roboto, AppleSDGothicNeo, sans-serif;
     color:#222;
     line-height: 1.75;
