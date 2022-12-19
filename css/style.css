@@ -315,7 +315,7 @@ section.section2 {
 }
 .box-1-2 {
   width: 365px;
-  border-left: 2px solidrgba(255, 255, 255, 0.2);
+  
   height: 50px;
   margin-top: 40px;
   margin-left: 35px;
@@ -364,7 +364,7 @@ section.section2 {
   transition: all 1s;
   -webkit-transition: all 1s;
 }
-a
+
 .border {
   width: 295px;
   padding-top: 60px;
@@ -372,18 +372,18 @@ a
   position: relative;
 }
 .last {
-  position: relative;
-  left:100px;
+  position: absolute;
+  left:80px;
   font-size: 24px;
-  bottom: 162px;
+  bottom: -10px;
   padding-right: 40px;
   padding-left: 70px;
   padding-top: 70px;
 
 }
 .border>img{
- padding-left: 50px;
- padding-top: 50px;
+ padding-left: 0px;
+ padding-top: 40px;
 }
   
 
