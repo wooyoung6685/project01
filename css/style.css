@@ -578,23 +578,91 @@ section.section2 {
   padding-top: 50px;
   
 }
+footer{
+  background-color: #282828;
+ 
+}
+.footer-layout-border{
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
 
 .footer-layout{
   position: relative;
+  margin: 0 auto;
   width: 100%;
-  background-color: #282828
+  max-width: 1460px;
+  
+  
 }
 .Company-information{
-  justify-content: center;
-
+  position: relative;
+  box-sizing: border-box;
 }
 .Company-information>li{
-  padding-right: 50px;
-  padding-top: 25px;
-  height: 55px;
+  margin-right: 40px;
+
 }
 .Company-information>li>a{
   color: rgba(255,255,255,.5);
+  height: 100%;
   font-size: 16px;
- 
+  font-weight: 400;
+  line-height: 80px;
+}
+
+.linksite_wrap>div{
+  box-sizing: border-box;
+  position: absolute;
+  top:0;
+  right: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.linksite_wrap>div>a{
+  height: 100%;
+  padding: 0 30px 0 35px;
+  line-height: 80px;
+  color: rgba(255,255,255,.5);
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-lnfolayout{
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1460px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+.footer-lnfolayout>div>P{
+  color: rgba(255,255,255,.4);
+  font-size: 15px;
+}
+.footer-lnfolayout>div>P>a{
+  color: rgba(255,255,255,.4);
+  font-size: 15px;
+  padding-left: 150px;
+}
+.footer-lnfolayout .info-center{
+  padding-left: 65px;
+}
+.info-last{
+  padding-top: 30px;
+  color: rgba(153,153,153,.6);
+  font-size: 15px;
+}
+.flogo{
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  color: rgba(255,255,255,.6);
+  font-size: 15px;;
+  text-align: right;
+  
+}
+
+.flogo>ul>li:nth-child(2){
+  padding-left: 35px;
 }
