@@ -53,6 +53,7 @@ header > h1 {
   margin: 0 auto;
   color: white;
   font-size: 18px;
+ 
 }
 .mid > ul {
   padding-top: 33px;
@@ -99,6 +100,7 @@ header > h1 {
 
 .mid > ul > li:hover .dep2 {
   display: block;
+ 
 }
 .dep2 {
   display: none;
@@ -110,6 +112,7 @@ header > h1 {
   background-color: #ffffff;
   border-bottom: 3px solid #05aba7;
   z-index: 1000;
+  
 }
 
 .dep2-wrapper {
@@ -121,6 +124,7 @@ header > h1 {
   padding-top: 50px;
   display: flex;
   flex-direction: row;
+ 
 }
 
 .dep2-main-column {
@@ -272,9 +276,10 @@ ul {
 }
 
 #brandVisual ul {
+  overflow: hidden;
 	position: relative;
 	width: 100%;
-	height: 1903px;
+	height: 969px;
 	/* display: flex; */
 }
 
@@ -282,8 +287,7 @@ ul {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	line-height: 500px;
-	font-size: 5em;
+
 }
 
 .visual_0 {
@@ -926,5 +930,55 @@ footer{
     height: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
-}
+  .df-center{
+    
+    display: block;
+    padding: 0;
+    
+  }
+  .df-box1{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+  }
+  .df-box2{
+    width: 100%;
+    height: 100%;
+  }
+  .df-box2>ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    
+  }
+  .df-box2>ul>li{
+    flex:1;
+    
+  }
 
+  .s3-bg{
+    display: none;
+  }
+  .df-box2>ul>li:nth-child(1) {
+    padding-top: 0px;
+    text-align: center;
+  }
+  .df-box3{
+    width: 503px;
+    height: 288px;
+    margin: 0 auto;
+  }
+  .df-box4{
+    display: none;
+  }
+  .df-box5{
+    display: none;
+  }
+  .font3-1{
+    padding-top: 0;
+  }
+ 
+
+  
+}
