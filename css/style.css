@@ -1,7 +1,7 @@
 @charset 'utf-8';
 @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
 body {
-  font-family: "nsr", "맑은고딕", "Malgun Gothic", -apple-system;
+  font-family: "nsr", "맑은고딕", "Malgun Gothic",;
 }
 
 * {
@@ -385,7 +385,6 @@ main > section > h3 {
   vertical-align: top;
 }
 .skip {
-  clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -404,7 +403,6 @@ fieldset {
   border: 7px solid #05aba7;
   background: transparent;
   font-size: 18px;
-  font-family: "nsr", "맑은고딕", "Malgun Gothic", -apple-system;
   color: #fff;
 }
 .input_img {
@@ -607,7 +605,6 @@ section.section2 {
   color: #fff;
   font-size: 18px;
   transition: all 1s;
-  -webkit-transition: all 1s;
 }
 
 .border {
