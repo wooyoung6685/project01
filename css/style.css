@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
-body {
-  font-family: "nsr", "맑은고딕", "Malgun Gothic",
-}
+* {font-family: 'nsr','맑은고딕','Malgun Gothic',-apple-system;}
+a, abbr, address, article, aside, audio, body, canvas, caption, cite, dd, details, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, img, label, legend, li, menu, nav, object, ol, p, section, span, strong, summary, table, tbody, td, tfoot, th, thead, tr, ul, video{font-family: 'nsr','맑은고딕','Malgun Gothic',-apple-system;}
+
 
 * {
   margin: 0;
