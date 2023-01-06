@@ -1,6 +1,9 @@
 document.querySelector("#layer button").addEventListener("click",function(){
     document.querySelector("#layer").style.display="none";
   });
+
+  
+
   $(function () {
     const visual = $("#brandVisual>ul>li");
     const button = $("#buttonList>li");

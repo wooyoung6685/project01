@@ -10,9 +10,7 @@ a{
     text-decoration: none;
     color:#222;
 }
-a:hover{
-   
-}
+
 /* 폰트 초기화 */
 html{
     font-size: 62.5%; /* 16px의 62.5% = 10px 1rem->10px */ 
