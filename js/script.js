@@ -10,7 +10,7 @@ document.querySelector("#layer button").addEventListener("click",function(){
     let current = 0; //현재
     let btnIdx = 0; //클릭한 페이저 버튼의 인덱스
     let id; //setIntervalId
-    const speed = 3000;
+    const speed = 4000;
     //버튼클릭함수
     button.click(function () {
       btnIdx = $(this).index();
